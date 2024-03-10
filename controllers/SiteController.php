@@ -125,4 +125,14 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    
+    
+    
+/*prueba neurotransmisores*/
+
+public function actionMostrarinformacion()
+{
+    // Aquí puedes incluir la lógica necesaria para mostrar la información sobre neurotransmisores
+    return $this->render('mostrar-informacion'); // Renderiza la vista correspondiente con la información de neurotransmisores
+}
 }
